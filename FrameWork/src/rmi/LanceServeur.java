@@ -1,7 +1,6 @@
 package rmi;
 
 
-
 import java.net.InetAddress;
 import java.net.MalformedURLException;
 import java.net.UnknownHostException;
@@ -12,9 +11,11 @@ import java.rmi.registry.LocateRegistry;
 
 public class LanceServeur {
 
+	
   public static void main(String[] args) {
     try {
-      LocateRegistry.createRegistry(1099);
+      LocateRegistry.createRegistry(4768);
+  	
 
       System.out.println("Mise en place du Security Manager ...");
       if (System.getSecurityManager() == null) {
