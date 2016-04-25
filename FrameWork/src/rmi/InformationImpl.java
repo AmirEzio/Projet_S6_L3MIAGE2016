@@ -13,6 +13,6 @@ public class InformationImpl extends UnicastRemoteObject implements Information 
 
   public String getInformation() throws RemoteException {
     System.out.println("Invocation de la méthode getInformation()");
-    return "bonjour";
+    return "viva la vida";
   }
 }
